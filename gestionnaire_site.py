@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # ================================[  DETAILS  ]================================
-__authors__ = "Steve Tigrou"
+__authors__ = "Tigrou"
 __email__ = "user@gmail.com"
 __copyright__ = "Copyright 2024, gestionnaire-site"
 __date__ = "2024/06/21"
@@ -9,9 +9,9 @@ __version__ = "1.0.0"
 __status__ = "Prototype"
 # __status__ = "Production"
 __description__ = "Gestion des sites vituels sur le serveur LAMP."
-__credits__ = ["Steve Tigrou"]
+__credits__ = ["Tigrou"]
 __license__ = "GPU"
-__maintainer__ = "Steve Tigrou"
+__maintainer__ = "Tigrou"
 __python__ = "3.12.3"
 # ================================[ DOCSTRING ]================================
 """
@@ -26,17 +26,14 @@ Gestion des sites vituels sur le serveur LAMP
 import os
 import paramiko
 import time
-# ================================[  MODULES  ]================================
-
-
 # ================================[ VARIABLES ]================================
-HOSTNAME = "192.168.1.5"
+HOSTNAME = "192.168.1.1"
 PORT = 22
-USER = "root"
-PASSWORD = "tigger91220!"
+USER = "user"
+PASSWORD = "password"
 
-DOMAINE = "mysf.ovh"
-ADMIN_MAIL = "steve.tigrou@gmail.com"
+DOMAINE = "mon-domaine.com"
+ADMIN_MAIL = "tigrou@mon-domaine.com"
 PATH_CONF = "/etc/apache2/sites-available/"
 PATH_CONF_FILE_APACHE = "/etc/apache2/apache2.conf"
 PATH_SITES = "/var/www/"
